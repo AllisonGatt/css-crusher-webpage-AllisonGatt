@@ -4,13 +4,17 @@
 .header-class{
     background-color: #874949;
     color:azure;
+    font-family: 'Times New Roman', Times, serif;
   } 
 .nav-class {
     background-color: #476F7A;
+    font-family: 'Times New Roman', Times, serif;
   }
 
-  .nav-link-class {
+.nav-link-class {
     color: #E0A458;
+    font-family: 'Times New Roman', Times, serif;
+    display: block
   }
 
 .nav-link-class.active {
@@ -19,28 +23,100 @@
 
 .title-class {
     color:  #E0A458;
+    font-family: 'Times New Roman', Times, serif;
+
   }
 .section-title-class {
     color: #f7900a;
+    font-family: 'Times New Roman', Times, serif;
   }
+
+ .hero-section-class, .origin-section-class, .faq-section-class {
+    padding: 10px;
+    border: solid 5px #874949;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .text-class {
     color: #F2F2F2;
+    font-family: 'Times New Roman', Times, serif;
   }
 .image-class {
     border: solid 5px #874949;
+    width: 100%;
+    height: auto;
   }
 .form-class {
-    background-color: yellow;
+    background-color: #A3C38E;
+    font-family: 'Times New Roman', Times, serif;
   }
-  .button-class {
-    background-color: #d9534f; 
-    color: white; 
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+.button-class {
+  background-color: #d9534f; 
+  color: white; 
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 .footer-class {
     background-color: #A3C38E;
     color:#A3C7E0;
+    font-family: 'Times New Roman', Times, serif;
   }
+/*Responsive layout for mobile phones*/
+@media (max-width: 600px) {
+  .nav-class {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .nav-link-class {
+    padding: 10px 0;
+    display:block;
+  }
+  .hero-section-class, .origin-section-class, .faq-section-class {
+    padding: 10px;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .footer-class{
+    text-align: center;
+  }
+}
+/*This is for tablets*/
+@media (min-width: 601px) and (max-width: 1024px) {
+  .nav-class {
+    display:flex;
+    justify-content: space-around;
+  }
+  .section-title-class {
+    font-size: 1.5em;
+  }
+  .form-class {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .image-class {
+    width: 80%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/*Responsive for desktops*/
+@media (min-width: 1025px) {
+  .nav-class {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .section-title-class {
+    font-size: 2em;
+  }
+  .form-class {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
