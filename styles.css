@@ -29,13 +29,20 @@
     margin: 10ox;
 
   }
+
 .section-title-class {
     color: #f7900a;
     font-family: 'Times New Roman', Times, serif;
-    border: #874949;
+    border: solid 5px #874949;
     padding: 10px;
     margin: 10ox;
   }
+ .blockquote-class{
+  color:#f7900a;
+  background-color: cadetblue;
+  border: solid 2px white;
+ }
+
 
  .hero-section-class, .origin-section-class, .faq-section-class {
     padding: 10px;
@@ -47,6 +54,7 @@
     color: #F2F2F2;
     font-family: 'Times New Roman', Times, serif;
   }
+
 .image-class {
     border: solid 5px #874949;
     width: 100%;
