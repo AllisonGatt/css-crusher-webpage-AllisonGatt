@@ -29,11 +29,14 @@
 .section-title-class {
     color: #f7900a;
     font-family: 'Times New Roman', Times, serif;
+    border: #874949;
+    margin: 10ox;
   }
 
  .hero-section-class, .origin-section-class, .faq-section-class {
     padding: 10px;
     border: solid 5px #874949;
+    margin: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
