@@ -1,1 +1,41 @@
+.body-class {
+    background-color: rgb(73, 124, 137);
+  }
+.header-class{
+    background-color: #874949;
+    color:azure;
+  } 
+.nav-class {
+    background-color: #476F7A;
+  }
 
+  .nav-link-class {
+    color: #E0A458;
+  }
+
+.nav-link-class .active {
+    font-weight: bold;
+}
+
+.title-class {
+    color:  #E0A458;
+  }
+.section-title-class {
+    color: #f7900a;
+  }
+
+.text-class {
+    color: #F2F2F2;
+  }
+.image-class {
+    border: solid 5px #874949;
+  }
+.form-class {
+    background-color: yellow;
+  }
+.button-class {
+    background-color: yellow;
+  }
+.footer-class {
+    background-color: yellow;
+  }
