@@ -13,7 +13,7 @@
     color: #E0A458;
   }
 
-.nav-link-class .active {
+.nav-link-class.active {
     font-weight: bold;
 }
 
@@ -33,9 +33,13 @@
 .form-class {
     background-color: yellow;
   }
-.button-class {
-    background-color: #F28A6A;
-  }
+  .button-class {
+    background-color: #d9534f; 
+    color: white; 
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
 .footer-class {
     background-color: #A3C38E;
     color:#A3C7E0;
