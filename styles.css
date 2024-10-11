@@ -35,12 +35,14 @@
     font-family: 'Times New Roman', Times, serif;
     border: solid 5px #874949;
     padding: 10px;
-    margin: 10ox;
+    margin: 10px;
   }
  .blockquote-class{
   color:#f7900a;
   background-color: cadetblue;
   border: solid 2px white;
+  padding:10px;
+  margin: 10px;
  }
 
 
