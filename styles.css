@@ -47,7 +47,6 @@
   margin: 10px;
  }
 
-
  .hero-section-class, .origin-section-class, .faq-section-class {
     padding: 10px;
     margin: 10px;
@@ -68,19 +67,19 @@
 }
 
 .text-class {
-    color: #F2F2F2;
-    font-family: 'Times New Roman', Times, serif;
-  }
+  color: #F2F2F2;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 .image-class {
-    border: solid 5px #874949;
-    width: 100%;
-    height: auto;
-  }
+  border: solid 5px #874949;
+  width: 100%;
+  height: auto;
+}
 .form-class {
-    background-color: #A3C38E;
-    font-family: 'Times New Roman', Times, serif;
-  }
+  background-color: #A3C38E;
+  font-family: 'Times New Roman', Times, serif;
+}
 .button-class {
   background-color: #d9534f; 
   color: white; 
@@ -89,10 +88,10 @@
   cursor: pointer;
 }
 .footer-class {
-    background-color: #A3C38E;
-    color:#A3C7E0;
-    font-family: 'Times New Roman', Times, serif;
-  }
+  background-color: #A3C38E;
+  color:#A3C7E0;
+  font-family: 'Times New Roman', Times, serif;
+}
 /*Responsive layout for mobile phones*/
 @media (max-width: 600px) {
   .nav-class {
