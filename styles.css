@@ -14,7 +14,10 @@
 .nav-link-class {
     color: #E0A458;
     font-family: 'Times New Roman', Times, serif;
-    display: block
+    display: block;
+    text-decoration: none; 
+    padding: 5px;   
+    margin:5px;
   }
 
 .nav-link-class.active {
@@ -27,7 +30,6 @@
     border: #874949;
     padding: 10px;
     margin: 10ox;
-
   }
 
 .section-title-class {
@@ -55,6 +57,8 @@
   background-color: midnightblue;
   border: solid 2px #874949;
   color: white;
+  padding:10px;
+  margin: 10px;
 }
 
 .faq-question-class{
