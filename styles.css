@@ -49,6 +49,17 @@
     margin: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
+.faq-class{
+  background-color: midnightblue;
+  border: solid 2px #874949;
+  color: white;
+}
+
+.faq-question-class{
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f7900a;
+}
 
 .text-class {
     color: #F2F2F2;
