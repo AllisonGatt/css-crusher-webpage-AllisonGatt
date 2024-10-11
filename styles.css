@@ -34,6 +34,7 @@
 
 .section-title-class {
     color: #f7900a;
+    background-color:#E0A458;
     font-family: 'Times New Roman', Times, serif;
     border: solid 5px #874949;
     padding: 10px;
@@ -47,15 +48,15 @@
   margin: 10px;
  }
 
- .hero-section-class, .origin-section-class, .faq-section-class {
-    padding: 10px;
-    margin: 10px;
-    font-family: 'Times New Roman', Times, serif;
+.hero-section-class, .origin-section-class, .faq-section-class {
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .faq-class{
-  background-color: midnightblue;
+  background-color: lightsalmon;
   border: solid 2px #874949;
-  color: white;
+  color: midnightblue;
   padding:10px;
   margin: 10px;
 }
