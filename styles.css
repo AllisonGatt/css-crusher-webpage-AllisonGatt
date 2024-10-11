@@ -37,26 +37,27 @@
     background-color:#E0A458;
     font-family: 'Times New Roman', Times, serif;
     border: solid 5px #874949;
+    border-radius: 5px;
     padding: 10px;
     margin: 10px;
   }
  .blockquote-class{
-  color:#f7900a;
+  color:#874949;
   background-color: cadetblue;
   border: solid 2px white;
   padding:10px;
   margin: 10px;
  }
-
+/*
 .hero-section-class, .origin-section-class, .faq-section-class {
   padding: 10px;
   margin: 10px;
   font-family: 'Times New Roman', Times, serif;
 }
+*/
 .faq-class{
   background-color: lightsalmon;
   border: solid 2px #874949;
-  color: midnightblue;
   padding:10px;
   margin: 10px;
 }
@@ -64,7 +65,7 @@
 .faq-question-class{
   text-decoration: underline;
   font-family: 'Times New Roman', Times, serif;
-  color: #f7900a;
+  color: midnightblue;
 }
 
 .text-class {
