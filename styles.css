@@ -27,9 +27,10 @@
 .title-class {
     color:  #E0A458;
     font-family: 'Times New Roman', Times, serif;
-    border: #874949;
+    border: solid 10px#874949;
     padding: 10px;
     margin: 10ox;
+    background-color: #542C2C;
   }
 
 .section-title-class {
