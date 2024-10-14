@@ -76,7 +76,8 @@
   height: auto;
 }
 .form-class {
-  background-color: #A3C38E;
+  background-color: #BFBFBF;
+  color: #3A706B;
   font-family: 'Times New Roman', Times, serif;
 }
 .button-class {
@@ -88,7 +89,7 @@
 }
 .footer-class {
   background-color: #A3C38E;
-  color:#A3C7E0;
+  color:#3A706B;
   font-family: 'Times New Roman', Times, serif;
 }
 /*Responsive layout for mobile phones*/
