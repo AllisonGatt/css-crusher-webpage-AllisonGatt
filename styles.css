@@ -20,7 +20,7 @@
     margin:5px;
   }
 
-.nav-link-class.active {
+.nav-link-class:active {
     font-weight: bold;
 }
 
